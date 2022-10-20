@@ -64,9 +64,9 @@
    <script>
     document.getElementById('vid').play();
 </script>
-
-      
-
+$("videoID").get(0).play();
+      $("video[autoplay]").each(function(){ this.play(); });
+$('#vid')[0].play();
 
     <!-- JavaScript Bundle with Popper -->
     <script src="/style/app.js"></script>
