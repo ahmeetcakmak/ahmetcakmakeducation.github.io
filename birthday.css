@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	background: #020202;
 	cursor: crosshair;
+	z-index: 0;
   }
   canvas{display:block}
   h1 {
